@@ -7,8 +7,8 @@ ENV JAVA_MAJOR=8 \
 
 ENV JAVA_HOME=/opt/jdk1.${JAVA_MAJOR}.0_${JAVA_UPDATE} \
     ZK_HOSTS=localhost:2181 \
-    KM_VERSION=1.3.3.14 \
-    KM_REVISION=5de818f330365fc3cd835b8227875ad12f29ed15 \
+    KM_VERSION=1.3.3.16 \
+    KM_REVISION=6062369708ac7c968a307d7bde028b3282a629b9 \
     KM_CONFIGFILE="conf/application.conf"
 
 RUN apk add --no-cache git wget && \
